@@ -7,11 +7,11 @@ export const PATH_AFTER_LOGIN = PATH_PAGE.home;
 // #PROD API URL: PRODUCTION URL HERE
 // #DEV API URL: DEVELOPMENT URL HERE
 
-const HOST_API = "YOUR API URL HERE";
-// export const HOST_API = process.env.REACT_APP_HOST_API_KEY || "";
+export const HOST_API = import.meta.env.VITE_HOST_API || "";
 
-const version = "api/v1/";
-// const port = '80';
+export const version = "api/v1/";
+
+// export const port = '80';
 
 export const PATH_API = {
   root: HOST_API,

@@ -1,5 +1,5 @@
-import { loadAbort } from "../utils";
 import axios from "./axios";
+import { loadAbort } from "../utils";
 
 export const login = () => {
   const controller = loadAbort();
